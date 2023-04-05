@@ -202,6 +202,7 @@
         background-size: contain;
         background-image: url(./images/bg-pattern-circles.svg), linear-gradient(to bottom, hsl(237, 17%, 21%) 40%, hsl(237, 23%, 32%) 100%);
         margin-bottom: 0;
+        padding-right: 0rem;
     }
 
     .bannerPhoneImg{
