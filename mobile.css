@@ -1,0 +1,234 @@
+@media (max-width: 375px )  {
+    .navContainer{
+        background-size: 300%;
+        background-position: 31% 36%;
+        height: 60vh;
+        background-image: url(./images/bg-pattern-intro-desktop.svg), 
+        linear-gradient(to bottom, hsl(13, 100%, 72%) 17%, hsl(353, 100%, 62%) 86%)
+    }
+
+    .iconCloseDisplay{
+        display: none;
+    }
+
+    .subNavMobileContainer{
+        position: absolute;
+        top: 150%;
+        right: 0%;
+        background-color: white;
+        width: 100%;
+        height: 55vh;
+        border-radius: 5px;
+        box-shadow: 2px 8px 13px 0px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 2px 8px 13px 0px rgba(0,0,0,0.6);
+        -moz-box-shadow: 2px 8px 13px 0px rgba(0,0,0,0.6);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        gap: 1rem;
+    }
+    
+    .subNavMobileContent{
+        width: 80%;
+        margin: 0 auto;
+        background-color: lightgrey;
+    }
+    .subNavMobile{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.5rem;
+
+    }
+
+    .subNavMobileItem{
+        font-family: 'Overpass';
+        font-weight: 400;
+    }
+
+    .subNavMobileItem:hover{
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .subNavDisplay{
+        display: none;
+    
+    }
+
+    .subNavMobileDisplay{
+        display: none;
+    }
+
+    .navmenuMobileList{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .navMobileItemConnect{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .arrowMobile{
+        background-image: url(./images/icon-arrow-dark.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 70%;
+        background-size: 80%;
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .arrowTransform{
+        transform: rotate(180deg);
+    }
+
+    .logoImg{
+        width: 70%;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .registerContainer{
+        display: none;
+    }
+
+    .separateLine{
+        width: 80%;
+        border-bottom: .5px solid;
+        margin: 0 auto;
+        opacity: .5;
+    }
+
+    .registerMobileContent{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hamburgerIcon{
+        display: block;
+        position: absolute;
+        right: 0%;
+    }
+    .hamburgerIcon:hover{
+        cursor: pointer;
+    }
+
+    .loginBtnMobile{
+        background: none;
+        color: black;
+        border: none;
+        border-radius: 5rem;
+        font-family: 'Ubuntu';
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .loginBtnMobile:hover{
+        cursor: pointer;
+    }
+
+    .signInBtnMobile{
+        background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+        color: white;
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 2rem;
+        border: none;
+        font-family: 'Ubuntu';
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .signInBtnMobile:hover{
+        cursor: pointer;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+
+    .detailContainer{
+        padding-top: 1rem;
+        background-image: url(./images/illustration-editor-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 10% 20%;
+        margin-bottom: 170%;
+    }
+
+    .detailTitle{
+        font-size: 22px;
+    }
+
+    .detailTextContainer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .detailDiv{
+        margin-top: 23rem;
+    }
+
+    .bannerContainer{
+        height: 70vh;
+        background-position: 50% -30%;
+        background-size: contain;
+        background-image: url(./images/bg-pattern-circles.svg), linear-gradient(to bottom, hsl(237, 17%, 21%) 40%, hsl(237, 23%, 32%) 100%);
+        margin-bottom: 0;
+    }
+
+    .bannerPhoneImg{
+        width: 100%;
+        background-size: 100%;
+        left: 0%;
+        bottom: 0%;
+        height: 130%;
+    }
+
+    .bannerText{
+        width: 100%;
+        text-align: center;
+    }
+
+    .detailTextBanner{
+        width: 100%;
+        padding: 0rem 2rem;
+    }
+
+    .detailContainerSecond{
+        background-image: url(./images/illustration-laptop-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 140% 60%;
+        background-position: 50% 0;
+    }
+
+    .detailDivSecond{
+        margin-top: 22rem;
+    }
+
+    .footer{
+        margin-top: 130%;
+    }
+
+    .footerContainer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 4rem;
+    }
+
+    
+}

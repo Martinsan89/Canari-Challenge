@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:display=swap');
+@import url('https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+/* ----Navmenu------- */
+.navContainer {
+    background-image: 
+        url(./images/bg-pattern-intro-desktop.svg), 
+        linear-gradient(to right, hsl(13, 100%, 72%) 20%, hsl(353, 100%, 62%) 54%);
+    background-position: 27% 52%;
+    background-repeat: no-repeat;
+    background-size: 192%;
+    height: 50vh;
+    border-bottom-left-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+.navContent {
+    width: 80%;
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    position: relative;
+
+}
+
+.subNavMobileContainer{
+    display: none;
+}
+
+.nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    color: white;
+}
+
+.navItem{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navItem:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.navItemConnect{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+.navItemConnect:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.arrowDesktop{
+    background-image: url(./images/icon-arrow-light.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-size: 80%;
+    height: 1rem;
+    width: 1rem;
+}
+
+.arrowTransform{
+    transform: rotate(180deg);
+}
+
+.subNavContainer{
+    position: absolute;
+    top: 100%;
+    left: 38%;
+    width: 10rem;
+    height: 8rem;
+}
+
+.subNavDisplay{
+    display: none;
+
+}
+
+.hamburgerIcon{
+    display: none;
+}
+
+.subNav{
+    background-color: white;
+    color: black;
+    list-style: none;
+    line-height: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.subNav:hover{
+    cursor: pointer;
+}
+
+.subNavItem{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+}
+
+.subNavItem:hover{
+    font-weight: 500;
+}
+
+.spaceInNavContainer{
+    width: 16%;
+}
+
+.registerContainer{
+    color: white;
+    gap: 2rem;
+    display: flex;
+}
+
+.loginBtn{
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+.loginBtn:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+
+.signInBtn{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.signInBtn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: hsl(355, 100%, 74%)
+}
+
+.titleHeader{
+    width: 80%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title{
+    margin-bottom: 1%;
+    font-family: 'Overpass';
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.subtitleText{
+    font-family: 'Overpass';
+    font-weight: 300;
+}
+
+.btnHeader{
+    color: white;
+    gap: 1rem;
+    display: flex;
+}
+
+.learnBtn{
+    background: none;
+    color: white;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: white 1px solid;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+.learnBtn:hover{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    cursor: pointer;
+}
+
+.startBtn{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+.startBtn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: hsl(355, 100%, 74%)
+}
+/* ------Detail First---------- */
+.detailContainer{
+    background-image: url(./images/illustration-editor-desktop.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 135% 8%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.detailDiv{
+    display: flex;
+    width: 80%;
+    margin-top: 5rem;
+}
+
+.detailTitle{
+    text-align: center;
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.detailTextContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.detailSubHeader{
+    padding-bottom: 1rem;
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.detailText{
+    line-height: 2rem;
+    font-family: 'Overpass';
+    font-weight: 400;
+}
+
+/* ----Banner---- */
+
+.bannerContainer {
+    background-image: 
+        url(./images/bg-pattern-circles.svg),
+        linear-gradient(to right, hsl(237, 17%, 21%) 30%, hsl(237, 23%, 32%) 90%);
+    background-repeat: no-repeat;
+    background-position: -55% 85%;
+    height: 36vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 4rem;
+    border-bottom-left-radius: 4.5rem;
+    border-top-right-radius: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bannerPhoneImg {
+    background-image: url(./images/illustration-phones.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    width: 50%;
+    height: 151%;
+    position: absolute;
+    left: 10%;
+    bottom: -35%;
+    z-index: 3;
+}
+
+.bannerText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    width: 50%;
+}
+
+.detailTextBanner{
+    line-height: 2rem;
+    font-family: 'Overpass';
+    font-weight: 400;
+    width: 70%;
+}
+
+.bannerTextHeader{
+    padding: 1rem 0;
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 37px;
+}
+
+/* ---- Detail Second */
+
+.detailContainerSecond{
+    background-image: url(./images/illustration-laptop-desktop.svg);
+    background-size: 53%;
+    background-repeat: no-repeat;
+    background-position: -32% 8%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+}
+
+.detailDivSecond{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-top: 2rem;
+    margin-right: 5%;
+}
+
+.detailTitle{
+    text-align: center;
+}
+
+.detailTextContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4rem;
+}
+
+/* ---Footer ----- */
+
+.footer{
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 4.5rem;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    width: 80%;
+}
+
+.productContent{
+    color: white;
+}
+
+.productTitle{
+    color: white;
+    padding-bottom: 2rem;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+.productList{
+    list-style: none;
+    line-height: 2rem;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+}
+
+.productItem{
+    color: white;
+    text-decoration: none;
+}
+
+.productItem:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
