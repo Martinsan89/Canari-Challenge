@@ -1,4 +1,6 @@
 @media (max-width: 375px )  {
+
+    /* Navmenu */
     .navContainer{
         background-size: 300%;
         background-position: 31% 36%;
@@ -7,10 +9,12 @@
         linear-gradient(to bottom, hsl(13, 100%, 72%) 17%, hsl(353, 100%, 62%) 86%)
     }
 
+    
     .iconCloseDisplay{
         display: none;
     }
 
+    /* Navmenu content */
     .subNavMobileContainer{
         position: absolute;
         top: 150%;
@@ -29,18 +33,20 @@
         gap: 1rem;
     }
     
-    .subNavMobileContent{
-        width: 80%;
-        margin: 0 auto;
-        background-color: lightgrey;
-    }
+    /* Navmenu  */
     .subNavMobile{
         list-style: none;
         display: flex;
         flex-direction: column;
         gap: 2rem;
         padding: 1.5rem;
+    }
 
+    /* Dropdown */
+    .subNavMobileContent{
+        width: 80%;
+        margin: 0 auto;
+        background-color: lightgrey;
     }
 
     .subNavMobileItem{
@@ -88,23 +94,37 @@
         transform: rotate(180deg);
     }
 
+    /* Logo */
     .logoImg{
         width: 70%;
     }
 
+    /* Navmenu Desktop display=none */
     .nav{
         display: none;
     }
 
-    .registerContainer{
-        display: none;
-    }
-
+    /* Separate line */
     .separateLine{
         width: 80%;
         border-bottom: .5px solid;
         margin: 0 auto;
         opacity: .5;
+    }
+
+     /* Hamburger Icon */
+     .hamburgerIcon{
+        display: block;
+        position: absolute;
+        right: 0%;
+    }
+    .hamburgerIcon:hover{
+        cursor: pointer;
+    }
+
+    /* Register */
+    .registerContainer{
+        display: none;
     }
 
     .registerMobileContent{
@@ -115,14 +135,6 @@
         margin: 0 auto;
     }
 
-    .hamburgerIcon{
-        display: block;
-        position: absolute;
-        right: 0%;
-    }
-    .hamburgerIcon:hover{
-        cursor: pointer;
-    }
 
     .loginBtnMobile{
         background: none;
@@ -155,10 +167,12 @@
         cursor: pointer;
     }
 
+    /* Header */
     .title{
         font-size: 32px;
     }
 
+    /* First detail content */
     .detailContainer{
         padding-top: 1rem;
         background-image: url(./images/illustration-editor-mobile.svg);
@@ -181,6 +195,7 @@
         margin-top: 23rem;
     }
 
+    /* Banner */
     .bannerContainer{
         height: 70vh;
         background-position: 50% -30%;
@@ -202,6 +217,7 @@
         text-align: center;
     }
 
+    /* Second detail content */
     .detailTextBanner{
         width: 100%;
         padding: 0rem 2rem;
@@ -218,6 +234,7 @@
         margin-top: 22rem;
     }
 
+    /* Footer */
     .footer{
         margin-top: 130%;
     }
