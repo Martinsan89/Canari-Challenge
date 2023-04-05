@@ -202,7 +202,7 @@
         background-image: url(./images/bg-pattern-circles.svg), linear-gradient(to bottom, hsl(237, 17%, 21%) 40%, hsl(237, 23%, 32%) 100%);
         margin-bottom: 0;
         padding-right: 0rem;
-        padding-top: 2.5rem;
+        padding-top: 4rem;
         margin-top: 2.5rem;
     }
 
@@ -228,7 +228,7 @@
     .detailContainerSecond{
         background-image: url(./images/illustration-laptop-mobile.svg);
         background-repeat: no-repeat;
-        background-size: 140% 60%;
+        background-size: 140% 70%;
         background-position: 50% 0;
     }
 
